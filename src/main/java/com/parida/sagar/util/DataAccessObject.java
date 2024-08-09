@@ -17,7 +17,7 @@ public abstract class DataAccessObject  <T extends DataTransferObject>{
         this.connection = connection;
     }
 
-    public abstract T findBy(long id);
+    public abstract T findById(long id);
     public abstract List<T> findAll();
     public abstract T update(T dto);
     public abstract T create(T dto);
